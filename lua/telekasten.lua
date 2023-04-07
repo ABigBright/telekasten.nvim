@@ -1463,6 +1463,7 @@ local function InsertLink(opts)
             prompt_title = "Insert link to note",
             cwd = cwd,
             attach_mappings = attach_mappings,
+            filter_extensions = vim.g.telekasten_insert_link_filter_extension,
             find_command = find_command,
             sort = sort,
         })
